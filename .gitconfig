@@ -8,3 +8,5 @@
 [user]
 	email = infcurious@gmail.com
 	name = KY
+[core]
+	excludesfile = ~/.gitignore_global
