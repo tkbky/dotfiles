@@ -21,3 +21,6 @@ set visualbell t_vb= " disable audible bell in terminal
 set autoread " automatically reload when files change
 
 inoremap jk <Esc>
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
